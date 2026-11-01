@@ -1,0 +1,4 @@
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM Nummers 
+WHERE ReleaseDatum is null;
+SET SQL_SAFE_UPDATES = 1;

@@ -1,0 +1,1 @@
+select releasejaar from nummers order by releasejaar  limit 1;
